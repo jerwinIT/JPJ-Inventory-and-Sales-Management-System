@@ -1,0 +1,20 @@
+.account-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.account-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.user-client-button{
+  display: flex;
+  justify-content: center; /* Align items horizontally in the center */
+  gap: 10px;
+}

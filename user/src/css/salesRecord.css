@@ -1,0 +1,40 @@
+.sales-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Styling for table header */
+.sales-table-container table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+    z-index: 1;
+}
+
+/* Styling for table rows */
+.sales-table-container table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light background color for even rows */
+}
+
+.sales-table-container table tbody tr:hover {
+    background-color: #ddd; /* Background color on hover */
+}
+
+/* Styling for table cells */
+.sales-table-container table tbody td {
+    padding: 8px;
+}
+
+.sales-table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling for table borders */
+.sales-table-container table th,
+.sales-table-container table td {
+    border: 1px solid #ddd; /* Border color */
+    padding: 8px;
+    text-align: left;
+}

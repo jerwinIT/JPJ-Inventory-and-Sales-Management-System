@@ -1,0 +1,50 @@
+/* navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Center the navbar content */
+  align-items: center;
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar a:hover {
+  color: rgb(204, 4, 4);
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  margin-right: 500px
+}
+
+.navbar-brand a {
+  margin-right: 20px; /* Adjust spacing between HOME and ADMIN */
+}
+
+.navbar-links {
+  display: flex;
+  font-size: 24px;
+}
+
+.nav-group {
+  display: flex;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+.nav-group a {
+  color: #fff;
+  margin-right: 40px;
+  font-size: 18px;
+}
+
+.nav-group a:hover {
+  color: rgb(204, 4, 4);
+}

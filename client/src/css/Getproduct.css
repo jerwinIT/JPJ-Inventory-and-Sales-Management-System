@@ -1,0 +1,63 @@
+.inventory-background{
+    background-image: url('inventory-bg.png'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto; 
+    
+}
+
+
+.custom-table {
+    color: black;
+}
+
+.button-group {
+    margin-bottom: 0px;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #3f3c3c;
+}
+
+.btn-add-product {
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.btn-update-price {
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.btn-update-stock {
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.btn-download-record {
+    background-color: #1a9e15;
+    margin-top: 10px;
+}
+
+
+
+.table-container {
+    position: relative;
+}
+
+.table-container table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #343a40; 
+    color: white; 
+}
+
+

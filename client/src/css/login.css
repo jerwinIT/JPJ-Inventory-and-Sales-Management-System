@@ -1,0 +1,20 @@
+.login-page {
+  background-image: url('login-.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.login-container {
+  max-width: 500px;
+  margin: 200px auto;
+  background-image: url('Dashboard.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 1, 1);
+  text-align: center;
+}

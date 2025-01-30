@@ -1,0 +1,40 @@
+.inventory-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Styling for table header */
+.inventory-table-container table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Dark background color */
+    color: white; /* Text color */
+    z-index: 1;
+}
+
+/* Styling for table rows */
+.inventory-table-container table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light background color for even rows */
+}
+
+.inventory-table-container table tbody tr:hover {
+    background-color: #ddd; /* Background color on hover */
+}
+
+/* Styling for table cells */
+.inventory-table-container table tbody td {
+    padding: 8px;
+}
+
+.inventory-table-container table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Styling for table borders */
+.inventory-table-container table th,
+.inventory-table-container table td {
+    border: 1px solid #ddd; /* Border color */
+    padding: 8px;
+    text-align: left;
+}

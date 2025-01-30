@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+.dashboard-background {
+    background-image: url('login-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+  }
+  
+  .welcome-heading {
+    color: rgb(255, 255, 255); /* Change this to any color you prefer */
+    text-align: center; /* Center align the text */
+    margin-top: 5rem; /* Adjust margin as needed */
+    font-family: 'Oswald', sans-serif; /* Apply the Oswald font */
+    font-weight: 700; /* Use bold weight for strong appearance */
+    text-transform: uppercase; /* Transform text to uppercase for a bold look */
+    letter-spacing: 1px; /* Slight spacing between letters for readability */
+}
+
+
+
+.intro-text {
+    font-family: 'Oswald', sans-serif; /* Apply the Oswald font */
+    color: white; /* Set font color to white */
+    margin-top: 2rem; /* Adjust margin as needed */
+    padding: 0 2rem; /* Add padding for better readability */
+    line-height: 1.6; /* Set line height for better spacing */
+    font-size: 1.3em; /* Set font size a little bit bigger */
+}
+
+.intro-text p {
+    margin-bottom: 1rem; /* Add margin between paragraphs */
+}

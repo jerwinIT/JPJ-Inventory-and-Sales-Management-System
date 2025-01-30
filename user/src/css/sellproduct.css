@@ -1,0 +1,23 @@
+/* sellproduct.css */
+.sellproduct-background {
+    background-image: url('sellproduct-bg.png'); /* Adjust the path as necessary */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow: auto; /* To handle scrolling if content overflows */
+}
+
+
+.btn-sales-record,
+.btn-inventory-table {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.btn-sales-record:hover,
+.btn-inventory-table:hover {
+    background-color: gray;
+    color: white;
+}

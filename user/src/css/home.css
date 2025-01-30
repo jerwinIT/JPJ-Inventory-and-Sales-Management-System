@@ -1,0 +1,8 @@
+.home-background {
+    background-image: url('bacgkround-jpj-home-page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
