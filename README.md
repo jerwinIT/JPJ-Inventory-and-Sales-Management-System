@@ -1,0 +1,1 @@
+An Inventory and Sales Management System designed to streamline the business processes of JPJ Motor Parts and Accessories. This web-based application replaces traditional paper-based systems, offering a more efficient and organized approach to managing inventory and sales for small businesses.
